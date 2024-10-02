@@ -1,0 +1,13 @@
+@startuml GallerAi : Search
+actor User
+participant GUI
+participant Db
+participant File
+User->GUI : Search (Tags)
+GUI->Db : SearchInDb(Tags)
+Db->Db: GetForeignKeys(Tags)
+Db->Db: SearchImage(Fks)
+Db->File: GetImagesPath()
+File->GUI: ShowImages(Paths)
+GUI->User: Show searched images
+@enduml
