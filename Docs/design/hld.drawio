@@ -1,56 +1,62 @@
 <mxfile host="65bd71144e">
     <diagram id="1YKwyujnfXp2BJysX-oX" name="HLD">
-        <mxGraphModel dx="2236" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2663" dy="1948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="225" y="190" width="655" height="820" as="geometry"/>
+                <mxCell id="19" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="180" y="60" width="740" height="740" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="&lt;b style=&quot;font-size: 23px;&quot;&gt;GallerAI&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="1">
-                    <mxGeometry x="480" y="140" width="170" height="50" as="geometry"/>
+                <mxCell id="2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="19" vertex="1">
+                    <mxGeometry x="213.15217391304347" y="42.5287356321839" width="526.8478260869565" height="697.471264367816" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;" edge="1" parent="1" source="4" target="8">
+                <mxCell id="3" value="&lt;b style=&quot;font-size: 23px;&quot;&gt;GallerAI&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" parent="19" vertex="1">
+                    <mxGeometry x="418.2608695652174" width="136.73913043478262" height="42.5287356321839" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=23;" parent="19" vertex="1">
+                    <mxGeometry y="365.74712643678157" width="24.130434782608695" height="51.03448275862069" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="19" source="5" target="6">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" style="edgeStyle=none;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;" edge="1" parent="1" source="4" target="6">
+                <mxCell id="5" value="Search image from keyword (Tag)" style="ellipse;whiteSpace=wrap;html=1;fontSize=23;" parent="19" vertex="1">
+                    <mxGeometry x="267.8478260869565" y="416.78160919540227" width="213.15217391304347" height="102.06896551724138" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;" parent="19" source="4" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" style="edgeStyle=none;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;" edge="1" parent="1" source="4" target="5">
+                <mxCell id="6" value="Search image from person face" style="ellipse;whiteSpace=wrap;html=1;fontSize=23;" parent="19" vertex="1">
+                    <mxGeometry x="267.8478260869565" y="263.67816091954023" width="213.15217391304347" height="102.06896551724138" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;" parent="19" source="4" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" style="edgeStyle=none;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;" edge="1" parent="1" source="4" target="7">
+                <mxCell id="7" value="Search duplicate image with similarity threshold" style="ellipse;whiteSpace=wrap;html=1;fontSize=23;" parent="19" vertex="1">
+                    <mxGeometry x="267.8478260869565" y="586.8965517241379" width="213.15217391304347" height="102.06896551724138" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;" parent="19" source="4" target="7" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=23;" vertex="1" parent="1">
-                    <mxGeometry x="-40" y="570" width="30" height="60" as="geometry"/>
+                <mxCell id="8" value="Add local gallery path" style="ellipse;whiteSpace=wrap;html=1;fontSize=23;" parent="19" vertex="1">
+                    <mxGeometry x="267.8478260869565" y="110.57471264367815" width="213.15217391304347" height="102.06896551724138" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Search image from keyword (Tag)" style="ellipse;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="1">
-                    <mxGeometry x="293" y="630" width="265" height="120" as="geometry"/>
+                <mxCell id="10" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;" parent="19" source="4" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Search image from person face" style="ellipse;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="1">
-                    <mxGeometry x="293" y="450" width="265" height="120" as="geometry"/>
+                <mxCell id="14" value="List all images" style="ellipse;whiteSpace=wrap;html=1;fontSize=23;" parent="19" vertex="1">
+                    <mxGeometry x="522.8260869565217" y="110.57471264367815" width="168.91304347826087" height="85.0574712643678" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="Search duplicate image with similarity threshold" style="ellipse;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="1">
-                    <mxGeometry x="293" y="830" width="265" height="120" as="geometry"/>
+                <mxCell id="15" value="Generate tags" style="ellipse;whiteSpace=wrap;html=1;fontSize=23;" parent="19" vertex="1">
+                    <mxGeometry x="522.8260869565217" y="221.1494252873563" width="168.91304347826087" height="85.0574712643678" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="Add local gallery path" style="ellipse;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="1">
-                    <mxGeometry x="293" y="270" width="265" height="120" as="geometry"/>
+                <mxCell id="16" value="Object detection" style="ellipse;whiteSpace=wrap;html=1;fontSize=23;" parent="19" vertex="1">
+                    <mxGeometry x="522.8260869565217" y="340.2298850574712" width="168.91304347826087" height="85.0574712643678" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="List all images" style="ellipse;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="1">
-                    <mxGeometry x="610" y="270" width="210" height="100" as="geometry"/>
+                <mxCell id="17" value="Facial recognition" style="ellipse;whiteSpace=wrap;html=1;fontSize=23;" parent="19" vertex="1">
+                    <mxGeometry x="522.8260869565217" y="459.31034482758616" width="168.91304347826087" height="85.0574712643678" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="Generate tags" style="ellipse;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="1">
-                    <mxGeometry x="610" y="400" width="210" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="16" value="Object detection" style="ellipse;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="1">
-                    <mxGeometry x="610" y="540" width="210" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="17" value="Facial recognition" style="ellipse;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="1">
-                    <mxGeometry x="610" y="680" width="210" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="18" value="Similarity db" style="ellipse;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="1">
-                    <mxGeometry x="610" y="830" width="210" height="100" as="geometry"/>
+                <mxCell id="18" value="Similarity db" style="ellipse;whiteSpace=wrap;html=1;fontSize=23;" parent="19" vertex="1">
+                    <mxGeometry x="522.8260869565217" y="586.8965517241379" width="168.91304347826087" height="85.0574712643678" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
