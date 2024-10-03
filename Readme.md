@@ -1,5 +1,7 @@
 # GallerAI
 
+## Prerequisite
+
 ## Features
 
 - User can configure list of directory to search images.
