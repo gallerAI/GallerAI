@@ -1,40 +1,41 @@
 # Tasks
 
-## P0
+## Frontend
 
-- GUI
-  - MainWindow
-    - File
-    - Help
-    - Action
-    - Search
-    - Progress bar
-  - ImageViewer
-    - File list
-    - Sidebar
-    - View
-- Backend
-  - File handling
-    - GetImage
-    - Add directory
+- MainWindow (P0)
+  - File
+  - Help
+  - Action
+  - View
+  - Search
+    - Dropdown (P1)
+- Progress bar (P1)
+- ImageViewer (P0)
+  - File list
+  - View
+- Sidebar (P1)
+  - File explorer
+
+## Backend
+
+- File handling (P0)
+  - Add directory (P0)
     - Scan
-    - Remove images
-  - DB
-    - Db schema
-    - Db type
-    - Db connectors
-
-## P1
-
-- Backend
-  - Object detection
-  - Face detection
-
-## P2
-
-- Feature : Search duplicate with similarity
-- Support on Linux (Ubuntu)
-
-## P3
-
-- Caching
+      - Filter images
+  - Remove images (P1)
+    - Permanently
+  - Copy images (P1)
+  - Move images (P1)
+  - Renaming (P3)
+- Search (P0)
+  - By file name
+- DB (P0)
+  - Db schema
+  - Db type
+  - Db connectors
+- AI
+  - Object detection(P1)
+  - Face detection (P2)
+  - Search duplicate with similarity (P3)
+- Support on Linux (Ubuntu) (P3)
+- Caching (P3)
